@@ -1,0 +1,2267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#094a4d">
+
+  <title>Quirónsalud Dubai | Specialist Healthcare & Medical Care</title>
+  <meta name="description" content="Discover specialist healthcare at Quirónsalud Specialty Hospital Dubai. Explore ophthalmology, orthopaedics, dental care, physiotherapy and more.">
+  <meta name="robots" content="index,follow">
+  <link rel="canonical" href="https://quironhospitals.ae/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Quirónsalud Specialty Hospital Dubai">
+  <meta property="og:description" content="Specialist healthcare in Dubai, shaped around your needs. Explore departments and contact our team.">
+  <meta property="og:url" content="https://quironhospitals.ae/">
+  <meta property="og:site_name" content="Quirónsalud Specialty Hospital Dubai">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://images.unsplash.com">
+
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --color-primary: #0eb0a7;
+      --color-primary-dark: #087f79;
+      --color-primary-light: #ddf7f4;
+      --color-secondary: #094a4d;
+      --color-secondary-dark: #06383b;
+      --color-secondary-light: #dcebea;
+      --color-accent: #e64561;
+      --color-accent-dark: #b72f49;
+      --color-heading: #123b3d;
+      --color-text: #344f50;
+      --color-text-muted: #667a7b;
+      --color-background: #f7fbfa;
+      --color-background-alt: #eef6f5;
+      --color-surface: #ffffff;
+      --color-surface-alt: #e7f1f0;
+      --color-border: #d5e3e1;
+      --color-border-strong: #9db7b4;
+      --color-interactive: #094a4d;
+      --color-interactive-hover: #06383b;
+      --color-focus: #b72f49;
+
+      --font-heading: "Manrope", sans-serif;
+      --font-body: "Source Sans 3", sans-serif;
+
+      --container: 1300px;
+      --radius-sm: 12px;
+      --radius-md: 20px;
+      --radius-lg: 32px;
+      --shadow-soft: 0 18px 50px rgba(9, 74, 77, .09);
+      --shadow-card: 0 12px 35px rgba(9, 74, 77, .07);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      scroll-padding-top: 100px;
+    }
+
+    body {
+      margin: 0;
+      color: var(--color-text);
+      background: var(--color-background);
+      font-family: var(--font-body);
+      font-size: 18px;
+      line-height: 1.65;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    body.menu-open {
+      overflow: hidden;
+    }
+
+    img {
+      display: block;
+      max-width: 100%;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    button {
+      font: inherit;
+    }
+
+    button,
+    a {
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    a:focus-visible,
+    button:focus-visible {
+      outline: 3px solid var(--color-focus);
+      outline-offset: 4px;
+    }
+
+    .container {
+      width: min(var(--container), calc(100% - 48px));
+      margin-inline: auto;
+    }
+
+    .section {
+      padding: 104px 0;
+      position: relative;
+    }
+
+    .section-soft {
+      background: var(--color-background-alt);
+    }
+
+    .section-dark {
+      color: #fff;
+      background: var(--color-secondary);
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      margin: 0 0 18px;
+      color: var(--color-primary-dark);
+      font-family: var(--font-heading);
+      font-size: 15px;
+      font-weight: 800;
+      letter-spacing: .13em;
+      text-transform: uppercase;
+    }
+
+    .eyebrow::before {
+      content: "";
+      width: 28px;
+      height: 2px;
+      background: var(--color-accent);
+    }
+
+    .section-dark .eyebrow {
+      color: #a7e9e3;
+    }
+
+    h1, h2, h3, h4 {
+      margin: 0;
+      color: var(--color-heading);
+      font-family: var(--font-heading);
+      font-weight: 800;
+      letter-spacing: -.045em;
+      line-height: 1.12;
+    }
+
+    .section-dark h2,
+    .section-dark h3 {
+      color: #fff;
+    }
+
+    h1 {
+      font-size: clamp(42px, 5.6vw, 72px);
+    }
+
+    h2 {
+      font-size: clamp(34px, 4vw, 50px);
+    }
+
+    h3 {
+      font-size: clamp(22px, 2.5vw, 28px);
+    }
+
+    p {
+      margin: 0 0 18px;
+    }
+
+    .lead {
+      max-width: 690px;
+      color: var(--color-text-muted);
+      font-size: clamp(18px, 1.6vw, 21px);
+      line-height: 1.65;
+    }
+
+    .section-dark .lead {
+      color: rgba(255,255,255,.76);
+    }
+
+    .section-heading {
+      max-width: 760px;
+      margin-bottom: 52px;
+    }
+
+    .section-heading p {
+      margin-top: 20px;
+      margin-bottom: 0;
+    }
+
+    .button {
+      min-height: 54px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      padding: 13px 24px;
+      border: 1px solid transparent;
+      border-radius: 999px;
+      font-family: var(--font-heading);
+      font-size: 16px;
+      font-weight: 800;
+      line-height: 1.2;
+      cursor: pointer;
+      transition: transform .2s ease, background .2s ease, box-shadow .2s ease;
+    }
+
+    .button:hover {
+      transform: translateY(-2px);
+    }
+
+    .button-primary {
+      color: #fff;
+      background: var(--color-secondary);
+      box-shadow: 0 10px 24px rgba(9,74,77,.18);
+    }
+
+    .button-primary:hover {
+      background: var(--color-secondary-dark);
+    }
+
+    .button-accent {
+      color: #fff;
+      background: var(--color-accent);
+    }
+
+    .button-accent:hover {
+      background: var(--color-accent-dark);
+    }
+
+    .button-outline {
+      color: var(--color-secondary);
+      background: transparent;
+      border-color: var(--color-border-strong);
+    }
+
+    .button-outline:hover {
+      background: var(--color-primary-light);
+      border-color: var(--color-primary);
+    }
+
+    .button-light {
+      color: var(--color-secondary);
+      background: #fff;
+    }
+
+    .text-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 9px;
+      color: var(--color-primary-dark);
+      font-family: var(--font-heading);
+      font-size: 16px;
+      font-weight: 800;
+    }
+
+    .text-link span {
+      transition: transform .2s ease;
+    }
+
+    .text-link:hover span {
+      transform: translateX(5px);
+    }
+
+    /* Announcement and navigation */
+
+    .topline {
+      color: rgba(255,255,255,.9);
+      background: var(--color-secondary-dark);
+      font-size: 15px;
+    }
+
+    .topline-inner {
+      min-height: 39px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+    }
+
+    .topline a {
+      color: #b9efea;
+      font-weight: 700;
+    }
+
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      background: rgba(247,251,250,.96);
+      border-bottom: 1px solid rgba(213,227,225,.8);
+      backdrop-filter: blur(14px);
+    }
+
+    .nav-wrap {
+      min-height: 88px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 28px;
+    }
+
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      flex-shrink: 0;
+    }
+
+    .brand-mark {
+      width: 43px;
+      height: 43px;
+      display: grid;
+      place-items: center;
+      color: #fff;
+      background: var(--color-primary);
+      border-radius: 14px 14px 14px 4px;
+      font-family: var(--font-heading);
+      font-size: 24px;
+      font-weight: 800;
+    }
+
+    .brand-name {
+      display: block;
+      color: var(--color-secondary);
+      font-family: var(--font-heading);
+      font-size: 20px;
+      font-weight: 800;
+      letter-spacing: -.06em;
+      line-height: 1.1;
+    }
+
+    .brand-subtitle {
+      display: block;
+      margin-top: 4px;
+      color: var(--color-text-muted);
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+
+    .main-nav {
+      display: flex;
+      align-items: center;
+      gap: clamp(16px, 2.1vw, 30px);
+    }
+
+    .main-nav > a:not(.button) {
+      color: var(--color-heading);
+      font-family: var(--font-heading);
+      font-size: 15px;
+      font-weight: 700;
+      transition: color .2s ease;
+    }
+
+    .main-nav > a:not(.button):hover {
+      color: var(--color-primary-dark);
+    }
+
+    .nav-cta {
+      min-height: 46px;
+      padding-inline: 19px;
+      font-size: 15px;
+    }
+
+    .menu-toggle {
+      width: 46px;
+      height: 46px;
+      display: none;
+      place-items: center;
+      color: var(--color-secondary);
+      background: var(--color-primary-light);
+      border: 0;
+      border-radius: 50%;
+      cursor: pointer;
+    }
+
+    .menu-toggle span,
+    .menu-toggle::before,
+    .menu-toggle::after {
+      content: "";
+      width: 19px;
+      height: 2px;
+      display: block;
+      background: currentColor;
+      transition: transform .2s ease;
+    }
+
+    .menu-toggle span {
+      margin: 5px 0;
+    }
+
+    /* Hero */
+
+    .hero {
+      position: relative;
+      overflow: hidden;
+      padding: 66px 0 88px;
+      background:
+        radial-gradient(circle at 8% 12%, rgba(14,176,167,.13), transparent 30%),
+        linear-gradient(135deg, #f7fbfa 0%, #edf7f5 58%, #e4f1ef 100%);
+    }
+
+    .hero::after {
+      content: "Q";
+      position: absolute;
+      right: -45px;
+      bottom: -180px;
+      color: rgba(14,176,167,.055);
+      font-family: var(--font-heading);
+      font-size: clamp(300px, 42vw, 620px);
+      font-weight: 800;
+      line-height: 1;
+      pointer-events: none;
+    }
+
+    .hero-grid {
+      position: relative;
+      z-index: 1;
+      display: grid;
+      grid-template-columns: 1.04fr .96fr;
+      align-items: center;
+      gap: 58px;
+    }
+
+    .hero-copy {
+      padding: 24px 0;
+    }
+
+    .hero h1 {
+      max-width: 720px;
+      margin-bottom: 24px;
+    }
+
+    .hero h1 em {
+      color: var(--color-primary-dark);
+      font-style: normal;
+    }
+
+    .hero-copy .lead {
+      max-width: 610px;
+      margin-bottom: 32px;
+    }
+
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 13px;
+      margin-bottom: 32px;
+    }
+
+    .hero-proof {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 16px 24px;
+      color: var(--color-text-muted);
+      font-size: 15px;
+      font-weight: 700;
+    }
+
+    .proof-item {
+      display: inline-flex;
+      align-items: center;
+      gap: 9px;
+    }
+
+    .proof-dot {
+      width: 9px;
+      height: 9px;
+      background: var(--color-accent);
+      border-radius: 50%;
+      box-shadow: 0 0 0 5px rgba(230,69,97,.12);
+    }
+
+    .hero-visual {
+      min-height: 540px;
+      position: relative;
+      padding: 18px;
+    }
+
+    .hero-photo {
+      position: absolute;
+      inset: 0 30px 35px 35px;
+      overflow: hidden;
+      border-radius: 180px 180px 28px 28px;
+      background: var(--color-secondary-light);
+      box-shadow: var(--shadow-soft);
+    }
+
+    .hero-photo img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+
+    .hero-photo::after {
+      content: "";
+      position: absolute;
+      inset: 35% 0 0;
+      background: linear-gradient(transparent, rgba(6,56,59,.22));
+    }
+
+    .hero-caption {
+      position: absolute;
+      right: 0;
+      bottom: 6px;
+      z-index: 2;
+      max-width: 230px;
+      padding: 16px 19px;
+      color: var(--color-secondary);
+      background: #fff;
+      border-radius: 16px;
+      box-shadow: var(--shadow-card);
+      font-size: 14px;
+      line-height: 1.4;
+    }
+
+    .hero-caption strong {
+      display: block;
+      margin-bottom: 4px;
+      font-family: var(--font-heading);
+      font-size: 15px;
+    }
+
+    .hero-orbit {
+      position: absolute;
+      top: 26px;
+      right: 2px;
+      width: 118px;
+      height: 118px;
+      display: grid;
+      place-items: center;
+      color: var(--color-secondary);
+      background: var(--color-primary-light);
+      border: 1px solid rgba(14,176,167,.35);
+      border-radius: 50%;
+      font-family: var(--font-heading);
+      font-size: 13px;
+      font-weight: 800;
+      text-align: center;
+      transform: rotate(8deg);
+    }
+
+    .hero-orbit span {
+      display: block;
+      color: var(--color-primary-dark);
+      font-size: 26px;
+    }
+
+    /* Trust strip */
+
+    .trust-strip {
+      position: relative;
+      z-index: 2;
+      margin-top: -1px;
+      padding: 28px 0;
+      background: #fff;
+      border-bottom: 1px solid var(--color-border);
+    }
+
+    .trust-inner {
+      display: grid;
+      grid-template-columns: 1.2fr repeat(3, 1fr);
+      align-items: center;
+      gap: 24px;
+    }
+
+    .trust-intro {
+      color: var(--color-secondary);
+      font-family: var(--font-heading);
+      font-size: 16px;
+      font-weight: 800;
+    }
+
+    .trust-point {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      color: var(--color-text-muted);
+      font-size: 15px;
+      font-weight: 700;
+    }
+
+    .trust-number {
+      color: var(--color-primary-dark);
+      font-family: var(--font-heading);
+      font-size: 26px;
+      font-weight: 800;
+      line-height: 1;
+    }
+
+    /* Six custom specialty icons — exactly two rows of three */
+
+    .specialty-section {
+      overflow: hidden;
+    }
+
+    .specialty-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      column-gap: 34px;
+      row-gap: 0;
+    }
+
+    .specialty-item {
+      min-height: 245px;
+      position: relative;
+      display: flex;
+      align-items: flex-start;
+      gap: 19px;
+      padding: 28px 10px 32px;
+      border-top: 1px solid var(--color-border);
+      transition: transform .25s ease;
+    }
+
+    .specialty-item:hover {
+      transform: translateY(-5px);
+    }
+
+    .specialty-icon {
+      width: 66px;
+      height: 66px;
+      flex: 0 0 66px;
+      display: grid;
+      place-items: center;
+      color: var(--color-primary-dark);
+      background: var(--color-primary-light);
+      border-radius: 22px 22px 22px 5px;
+    }
+
+    .specialty-icon svg {
+      width: 36px;
+      height: 36px;
+      fill: none;
+      stroke: currentColor;
+      stroke-width: 1.7;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    .specialty-copy h3 {
+      margin: 3px 0 10px;
+      font-size: 22px;
+      letter-spacing: -.035em;
+    }
+
+    .specialty-copy p {
+      margin: 0 0 13px;
+      color: var(--color-text-muted);
+      font-size: 16px;
+      line-height: 1.5;
+    }
+
+    .specialty-copy a {
+      color: var(--color-primary-dark);
+      font-family: var(--font-heading);
+      font-size: 14px;
+      font-weight: 800;
+    }
+
+    .specialty-copy a:hover {
+      color: var(--color-accent-dark);
+    }
+
+    /* About / positioning */
+
+    .about-grid {
+      display: grid;
+      grid-template-columns: .9fr 1.1fr;
+      align-items: center;
+      gap: 90px;
+    }
+
+    .about-art {
+      min-height: 470px;
+      position: relative;
+      overflow: hidden;
+      border-radius: 30px 180px 30px 30px;
+      background:
+        radial-gradient(circle at 25% 20%, rgba(255,255,255,.72), transparent 24%),
+        linear-gradient(145deg, #b9e8e3, #0eb0a7 58%, #087f79);
+    }
+
+    .about-art::before,
+    .about-art::after {
+      content: "";
+      position: absolute;
+      border: 1px solid rgba(255,255,255,.38);
+      border-radius: 50%;
+    }
+
+    .about-art::before {
+      width: 390px;
+      height: 390px;
+      top: 38px;
+      left: -70px;
+    }
+
+    .about-art::after {
+      width: 270px;
+      height: 270px;
+      top: 98px;
+      left: -10px;
+    }
+
+    .about-art-word {
+      position: absolute;
+      right: 24px;
+      bottom: 15px;
+      color: rgba(255,255,255,.84);
+      font-family: var(--font-heading);
+      font-size: clamp(80px, 11vw, 150px);
+      font-weight: 800;
+      letter-spacing: -.1em;
+      line-height: 1;
+    }
+
+    .about-note {
+      position: absolute;
+      left: 24px;
+      bottom: 26px;
+      max-width: 205px;
+      padding: 17px;
+      color: var(--color-secondary);
+      background: #fff;
+      border-radius: 16px;
+      box-shadow: var(--shadow-card);
+      font-size: 15px;
+      font-weight: 700;
+      line-height: 1.45;
+    }
+
+    .about-copy h2 {
+      margin-bottom: 22px;
+    }
+
+    .about-copy p {
+      color: var(--color-text-muted);
+    }
+
+    .about-points {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 15px 24px;
+      margin: 30px 0 34px;
+    }
+
+    .about-point {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      color: var(--color-heading);
+      font-size: 16px;
+      font-weight: 700;
+    }
+
+    .about-point::before {
+      content: "✓";
+      width: 22px;
+      height: 22px;
+      flex: 0 0 22px;
+      display: grid;
+      place-items: center;
+      color: var(--color-secondary);
+      background: var(--color-primary-light);
+      border-radius: 50%;
+      font-size: 13px;
+      font-weight: 800;
+    }
+
+    /* Care journey */
+
+    .journey-layout {
+      display: grid;
+      grid-template-columns: .8fr 1.2fr;
+      align-items: start;
+      gap: 70px;
+    }
+
+    .journey-intro {
+      position: sticky;
+      top: 125px;
+    }
+
+    .journey-intro h2 {
+      margin-bottom: 20px;
+    }
+
+    .journey-list {
+      counter-reset: journey;
+    }
+
+    .journey-step {
+      counter-increment: journey;
+      position: relative;
+      display: grid;
+      grid-template-columns: 68px 1fr;
+      gap: 24px;
+      padding: 0 0 35px;
+    }
+
+    .journey-step:not(:last-child)::after {
+      content: "";
+      position: absolute;
+      top: 67px;
+      bottom: 0;
+      left: 33px;
+      width: 1px;
+      background: rgba(167,233,227,.35);
+    }
+
+    .journey-step-number {
+      width: 68px;
+      height: 68px;
+      position: relative;
+      z-index: 1;
+      display: grid;
+      place-items: center;
+      color: var(--color-secondary);
+      background: #a7e9e3;
+      border-radius: 50%;
+      font-family: var(--font-heading);
+      font-size: 22px;
+      font-weight: 800;
+    }
+
+    .journey-step-number::before {
+      content: "0" counter(journey);
+    }
+
+    .journey-step h3 {
+      margin: 5px 0 10px;
+      font-size: 23px;
+    }
+
+    .journey-step p {
+      max-width: 580px;
+      margin: 0;
+      color: rgba(255,255,255,.72);
+      font-size: 17px;
+    }
+
+    /* Specialists */
+
+    .specialist-feature {
+      display: grid;
+      grid-template-columns: .95fr 1.05fr;
+      align-items: center;
+      gap: 65px;
+    }
+
+    .specialist-image {
+      min-height: 440px;
+      overflow: hidden;
+      border-radius: 28px 28px 160px 28px;
+      background: var(--color-secondary-light);
+    }
+
+    .specialist-image img {
+      width: 100%;
+      height: 100%;
+      min-height: 440px;
+      object-fit: cover;
+    }
+
+    .specialist-copy h2 {
+      margin-bottom: 22px;
+    }
+
+    .specialist-copy p {
+      color: var(--color-text-muted);
+    }
+
+    .doctor-list {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0 24px;
+      margin: 28px 0 32px;
+      border-top: 1px solid var(--color-border);
+    }
+
+    .doctor-entry {
+      padding: 17px 0;
+      border-bottom: 1px solid var(--color-border);
+    }
+
+    .doctor-entry strong {
+      display: block;
+      color: var(--color-heading);
+      font-family: var(--font-heading);
+      font-size: 16px;
+    }
+
+    .doctor-entry span {
+      display: block;
+      color: var(--color-text-muted);
+      font-size: 15px;
+    }
+
+    /* Contact band */
+
+    .contact-band {
+      position: relative;
+      overflow: hidden;
+      padding: 82px 0;
+      color: #fff;
+      background: var(--color-secondary);
+    }
+
+    .contact-band::before {
+      content: "";
+      position: absolute;
+      width: 520px;
+      height: 520px;
+      top: -280px;
+      right: 3%;
+      border: 1px solid rgba(167,233,227,.22);
+      border-radius: 50%;
+      box-shadow: 0 0 0 40px rgba(167,233,227,.04),
+                  0 0 0 80px rgba(167,233,227,.035);
+    }
+
+    .contact-band-inner {
+      position: relative;
+      z-index: 1;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 40px;
+    }
+
+    .contact-band h2 {
+      max-width: 720px;
+      margin-bottom: 16px;
+      color: #fff;
+    }
+
+    .contact-band p {
+      max-width: 650px;
+      margin: 0;
+      color: rgba(255,255,255,.76);
+    }
+
+    .contact-band-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      flex-shrink: 0;
+    }
+
+    /* FAQ */
+
+    .faq-layout {
+      display: grid;
+      grid-template-columns: .75fr 1.25fr;
+      gap: 75px;
+    }
+
+    .faq-intro h2 {
+      margin-bottom: 20px;
+    }
+
+    .faq-list {
+      border-top: 1px solid var(--color-border);
+    }
+
+    .faq-item {
+      border-bottom: 1px solid var(--color-border);
+    }
+
+    .faq-question {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      padding: 22px 0;
+      color: var(--color-heading);
+      background: transparent;
+      border: 0;
+      text-align: left;
+      cursor: pointer;
+      font-family: var(--font-heading);
+      font-size: 18px;
+      font-weight: 800;
+    }
+
+    .faq-plus {
+      width: 30px;
+      height: 30px;
+      flex: 0 0 30px;
+      display: grid;
+      place-items: center;
+      color: var(--color-primary-dark);
+      background: var(--color-primary-light);
+      border-radius: 50%;
+      font-size: 20px;
+      transition: transform .2s ease;
+    }
+
+    .faq-question[aria-expanded="true"] .faq-plus {
+      transform: rotate(45deg);
+    }
+
+    .faq-answer {
+      max-width: 720px;
+      padding: 0 42px 22px 0;
+      color: var(--color-text-muted);
+      font-size: 17px;
+    }
+
+    .faq-answer[hidden] {
+      display: none;
+    }
+
+    /* Contact and footer */
+
+    .contact-section {
+      background: var(--color-background-alt);
+    }
+
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 60px;
+    }
+
+    .contact-copy h2 {
+      margin-bottom: 20px;
+    }
+
+    .contact-copy > p {
+      max-width: 550px;
+      color: var(--color-text-muted);
+    }
+
+    .contact-details {
+      display: grid;
+      gap: 17px;
+      margin-top: 30px;
+    }
+
+    .contact-detail {
+      display: flex;
+      align-items: flex-start;
+      gap: 15px;
+    }
+
+    .contact-detail-mark {
+      width: 42px;
+      height: 42px;
+      flex: 0 0 42px;
+      display: grid;
+      place-items: center;
+      color: var(--color-secondary);
+      background: var(--color-primary-light);
+      border-radius: 14px;
+      font-family: var(--font-heading);
+      font-size: 17px;
+      font-weight: 800;
+    }
+
+    .contact-detail strong {
+      display: block;
+      color: var(--color-heading);
+      font-family: var(--font-heading);
+      font-size: 16px;
+    }
+
+    .contact-detail a,
+    .contact-detail span {
+      color: var(--color-text-muted);
+      font-size: 16px;
+    }
+
+    .contact-detail a:hover {
+      color: var(--color-primary-dark);
+    }
+
+    .map-panel {
+      min-height: 370px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-end;
+      padding: 32px;
+      color: #fff;
+      background:
+        linear-gradient(145deg, rgba(6,56,59,.25), rgba(6,56,59,.88)),
+        url("https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1200&q=85") center/cover;
+      border-radius: 28px;
+      box-shadow: var(--shadow-soft);
+    }
+
+    .map-panel small {
+      margin-bottom: 10px;
+      color: #b9efea;
+      font-family: var(--font-heading);
+      font-size: 14px;
+      font-weight: 800;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+    }
+
+    .map-panel h3 {
+      max-width: 400px;
+      margin-bottom: 17px;
+      color: #fff;
+      font-size: 29px;
+    }
+
+    .map-panel p {
+      max-width: 400px;
+      color: rgba(255,255,255,.8);
+      font-size: 16px;
+    }
+
+    .site-footer {
+      padding: 60px 0 28px;
+      color: rgba(255,255,255,.75);
+      background: var(--color-secondary-dark);
+    }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 1.3fr .7fr .8fr;
+      gap: 55px;
+      padding-bottom: 42px;
+    }
+
+    .footer-brand .brand-name {
+      color: #fff;
+    }
+
+    .footer-brand .brand-subtitle {
+      color: rgba(255,255,255,.62);
+    }
+
+    .footer-brand p {
+      max-width: 390px;
+      margin-top: 22px;
+      color: rgba(255,255,255,.68);
+      font-size: 16px;
+    }
+
+    .footer-column h3 {
+      margin-bottom: 17px;
+      color: #fff;
+      font-size: 17px;
+      letter-spacing: 0;
+    }
+
+    .footer-column a,
+    .footer-column p {
+      display: block;
+      margin: 0 0 10px;
+      color: rgba(255,255,255,.7);
+      font-size: 16px;
+    }
+
+    .footer-column a:hover {
+      color: #a7e9e3;
+    }
+
+    .footer-bottom {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      padding-top: 22px;
+      border-top: 1px solid rgba(255,255,255,.16);
+      color: rgba(255,255,255,.55);
+      font-size: 14px;
+    }
+
+    .footer-disclaimer {
+      max-width: 750px;
+    }
+
+    /* Reveal animation */
+
+    .reveal {
+      opacity: 0;
+      transform: translateY(22px);
+      transition: opacity .65s ease, transform .65s ease;
+    }
+
+    .reveal.is-visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* Mobile contact bar */
+
+    .mobile-cta {
+      display: none;
+    }
+
+    /* Responsive */
+
+    @media (max-width: 1050px) {
+      .main-nav {
+        gap: 15px;
+      }
+
+      .main-nav > a:not(.button) {
+        font-size: 14px;
+      }
+
+      .hero-grid {
+        gap: 30px;
+      }
+
+      .hero-visual {
+        min-height: 470px;
+      }
+
+      .about-grid,
+      .specialist-feature {
+        gap: 48px;
+      }
+
+      .journey-layout,
+      .faq-layout {
+        gap: 45px;
+      }
+
+      .trust-inner {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    @media (max-width: 820px) {
+      body {
+        font-size: 17px;
+      }
+
+      .section {
+        padding: 76px 0;
+      }
+
+      .container {
+        width: min(100% - 36px, var(--container));
+      }
+
+      .menu-toggle {
+        display: grid;
+      }
+
+      .nav-wrap {
+        min-height: 76px;
+      }
+
+      .main-nav {
+        position: fixed;
+        inset: 115px 0 auto;
+        display: none;
+        align-items: stretch;
+        gap: 0;
+        padding: 18px 24px 28px;
+        background: var(--color-background);
+        border-bottom: 1px solid var(--color-border);
+        box-shadow: var(--shadow-card);
+      }
+
+      .main-nav.is-open {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .main-nav > a:not(.button) {
+        padding: 15px 0;
+        border-bottom: 1px solid var(--color-border);
+        font-size: 17px;
+      }
+
+      .main-nav .nav-cta {
+        margin-top: 17px;
+      }
+
+      .hero {
+        padding: 45px 0 65px;
+      }
+
+      .hero-grid,
+      .about-grid,
+      .journey-layout,
+      .specialist-feature,
+      .faq-layout,
+      .contact-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .hero-grid {
+        gap: 24px;
+      }
+
+      .hero-copy {
+        padding: 0;
+      }
+
+      .hero-visual {
+        min-height: 480px;
+        max-width: 620px;
+        width: 100%;
+        margin-inline: auto;
+      }
+
+      .hero-photo {
+        inset: 0 20px 32px 20px;
+      }
+
+      .hero-orbit {
+        right: -4px;
+        width: 95px;
+        height: 95px;
+      }
+
+      .trust-inner {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .specialty-grid {
+        column-gap: 18px;
+      }
+
+      .specialty-item {
+        min-height: 220px;
+        gap: 13px;
+        padding-inline: 0;
+      }
+
+      .specialty-icon {
+        width: 54px;
+        height: 54px;
+        flex-basis: 54px;
+        border-radius: 17px 17px 17px 5px;
+      }
+
+      .specialty-icon svg {
+        width: 29px;
+        height: 29px;
+      }
+
+      .specialty-copy h3 {
+        font-size: 19px;
+      }
+
+      .about-art {
+        min-height: 350px;
+        max-width: 600px;
+      }
+
+      .journey-intro {
+        position: static;
+      }
+
+      .specialist-image,
+      .specialist-image img {
+        min-height: 370px;
+        max-height: 470px;
+      }
+
+      .contact-band-inner {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+
+      .footer-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .footer-brand {
+        grid-column: 1 / -1;
+      }
+
+      .mobile-cta {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 1200;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        padding: 12px 14px calc(12px + env(safe-area-inset-bottom));
+        background: rgba(255,255,255,.97);
+        border-top: 1px solid var(--color-border);
+        box-shadow: 0 -10px 28px rgba(9,74,77,.12);
+        backdrop-filter: blur(12px);
+      }
+
+      .mobile-cta .button {
+        min-height: 50px;
+        padding: 11px 12px;
+        font-size: 15px;
+      }
+
+      body {
+        padding-bottom: 84px;
+      }
+    }
+
+    @media (max-width: 560px) {
+      .topline-inner {
+        min-height: 36px;
+        justify-content: center;
+        font-size: 13px;
+      }
+
+      .topline-inner span {
+        display: none;
+      }
+
+      .container {
+        width: calc(100% - 30px);
+      }
+
+      .brand-mark {
+        width: 39px;
+        height: 39px;
+      }
+
+      .brand-name {
+        font-size: 18px;
+      }
+
+      .brand-subtitle {
+        font-size: 10px;
+      }
+
+      .main-nav {
+        inset: 111px 0 auto;
+      }
+
+      .hero {
+        padding-top: 38px;
+      }
+
+      .hero h1 {
+        font-size: clamp(39px, 11vw, 50px);
+      }
+
+      .hero-copy .lead {
+        font-size: 18px;
+      }
+
+      .hero-actions {
+        display: grid;
+        grid-template-columns: 1fr;
+      }
+
+      .hero-actions .button {
+        width: 100%;
+      }
+
+      .hero-proof {
+        gap: 13px 18px;
+        font-size: 14px;
+      }
+
+      .hero-visual {
+        min-height: 370px;
+        padding: 0;
+      }
+
+      .hero-photo {
+        inset: 0 14px 26px 14px;
+        border-radius: 130px 130px 22px 22px;
+      }
+
+      .hero-caption {
+        right: 0;
+        bottom: 0;
+        max-width: 190px;
+        padding: 12px 14px;
+        font-size: 13px;
+      }
+
+      .hero-orbit {
+        top: 8px;
+        right: -2px;
+        width: 78px;
+        height: 78px;
+        font-size: 11px;
+      }
+
+      .hero-orbit span {
+        font-size: 20px;
+      }
+
+      .trust-inner {
+        grid-template-columns: 1fr 1fr;
+        gap: 18px 12px;
+      }
+
+      .trust-intro {
+        grid-column: 1 / -1;
+      }
+
+      .trust-point {
+        gap: 8px;
+        font-size: 14px;
+      }
+
+      .trust-number {
+        font-size: 21px;
+      }
+
+      .section {
+        padding: 62px 0;
+      }
+
+      .section-heading {
+        margin-bottom: 30px;
+      }
+
+      .specialty-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        column-gap: 8px;
+      }
+
+      .specialty-item {
+        min-height: 225px;
+        display: block;
+        padding: 20px 3px 23px;
+      }
+
+      .specialty-icon {
+        width: 46px;
+        height: 46px;
+        margin-bottom: 14px;
+      }
+
+      .specialty-icon svg {
+        width: 25px;
+        height: 25px;
+      }
+
+      .specialty-copy h3 {
+        min-height: 43px;
+        font-size: 16px;
+        line-height: 1.2;
+      }
+
+      .specialty-copy p {
+        font-size: 14px;
+        line-height: 1.42;
+      }
+
+      .specialty-copy a {
+        font-size: 13px;
+      }
+
+      .about-art {
+        min-height: 290px;
+      }
+
+      .about-points {
+        grid-template-columns: 1fr;
+      }
+
+      .journey-step {
+        grid-template-columns: 52px 1fr;
+        gap: 17px;
+      }
+
+      .journey-step-number {
+        width: 52px;
+        height: 52px;
+        font-size: 18px;
+      }
+
+      .journey-step:not(:last-child)::after {
+        top: 52px;
+        left: 25px;
+      }
+
+      .journey-step h3 {
+        font-size: 20px;
+      }
+
+      .specialist-image,
+      .specialist-image img {
+        min-height: 300px;
+      }
+
+      .doctor-list {
+        grid-template-columns: 1fr;
+      }
+
+      .contact-band {
+        padding: 62px 0;
+      }
+
+      .contact-band-actions {
+        width: 100%;
+      }
+
+      .contact-band-actions .button {
+        width: 100%;
+      }
+
+      .faq-question {
+        font-size: 16px;
+      }
+
+      .map-panel {
+        min-height: 300px;
+        padding: 24px;
+      }
+
+      .footer-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+      }
+
+      .footer-brand {
+        grid-column: auto;
+      }
+
+      .footer-bottom {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *,
+      *::before,
+      *::after {
+        scroll-behavior: auto !important;
+        animation-duration: .01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: .01ms !important;
+      }
+
+      .reveal {
+        opacity: 1;
+        transform: none;
+      }
+    }
+  </style>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Hospital",
+    "name": "Quirónsalud Specialty Hospital Dubai",
+    "url": "https://quironhospitals.ae/",
+    "telephone": "+97143422228",
+    "email": "info@quironsalud.ae",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Villa 1187, 304 Wasl Road, Umm Al Sheif District",
+      "addressLocality": "Dubai",
+      "addressCountry": "AE"
+    },
+    "medicalSpecialty": [
+      "Ophthalmology",
+      "Orthopedic",
+      "Dentistry",
+      "Dermatology",
+      "Physiotherapy",
+      "Family Medicine",
+      "Cardiology",
+      "Otolaryngology"
+    ]
+  }
+  </script>
+</head>
+
+<body>
+  <div class="topline">
+    <div class="container topline-inner">
+      <span>Quirónsalud Specialty Hospital · Dubai, UAE</span>
+      <a href="tel:+97143422228">Speak with our team: +971 4 342 2228</a>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#home" aria-label="Quirónsalud Dubai homepage">
+        <span class="brand-mark" aria-hidden="true">Q</span>
+        <span>
+          <span class="brand-name">quirónsalud</span>
+          <span class="brand-subtitle">Specialty Hospital · Dubai</span>
+        </span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="main-navigation">
+        <span></span>
+      </button>
+
+      <nav class="main-nav" id="main-navigation" aria-label="Main navigation">
+        <a href="#specialties">Specialties</a>
+        <a href="#about">About</a>
+        <a href="#care-journey">Your care journey</a>
+        <a href="#specialists">Our specialists</a>
+        <a href="#contact">Contact</a>
+        <a class="button button-primary nav-cta" href="https://quironhospitals.ae/contact-us/">Make an enquiry <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Specialist healthcare in Dubai</p>
+          <h1>Care that sees the <em>whole</em> you.</h1>
+          <p class="lead">
+            From eye care and orthopaedics to dentistry, dermatology and rehabilitation,
+            discover specialist healthcare shaped around your needs at Quirónsalud Dubai.
+          </p>
+
+          <div class="hero-actions">
+            <a class="button button-primary" href="https://quironhospitals.ae/contact-us/">Make an appointment enquiry <span aria-hidden="true">↗</span></a>
+            <a class="button button-outline" href="#specialties">Explore our specialties <span aria-hidden="true">↓</span></a>
+          </div>
+
+          <div class="hero-proof">
+            <span class="proof-item"><span class="proof-dot"></span> Personalised patient care</span>
+            <span class="proof-item"><span class="proof-dot"></span> International healthcare group</span>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal">
+          <div class="hero-photo">
+            <img
+              src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=1100&q=88"
+              alt="Illustrative portrait of a healthcare professional"
+              fetchpriority="high"
+              width="1100"
+              height="1300">
+          </div>
+          <div class="hero-orbit"><div><span>70+</span>years of group experience</div></div>
+          <div class="hero-caption">
+            <strong>Healthcare with a human focus</strong>
+            An individual approach to every patient's needs.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="trust-strip" aria-label="Hospital information">
+      <div class="container trust-inner">
+        <div class="trust-intro">A connected approach to your health.</div>
+        <div class="trust-point">
+          <span class="trust-number">70+</span>
+          <span>Years of group experience</span>
+        </div>
+        <div class="trust-point">
+          <span class="trust-number">01</span>
+          <span>Dubai hospital location</span>
+        </div>
+        <div class="trust-point">
+          <span class="trust-number">08+</span>
+          <span>Specialist care areas</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section specialty-section" id="specialties">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Explore our care</p>
+          <h2>Find the specialist care you need.</h2>
+          <p class="lead">
+            Explore our core departments and discover the care pathways available
+            at Quirónsalud Specialty Hospital in Dubai.
+          </p>
+        </div>
+
+        <!-- Exactly six custom SVG icons, arranged in two rows of three -->
+        <div class="specialty-grid">
+          <article class="specialty-item reveal">
+            <div class="specialty-icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48">
+                <path d="M4 24s7-12 20-12 20 12 20 12-7 12-20 12S4 24 4 24Z"/>
+                <circle cx="24" cy="24" r="7"/>
+                <circle cx="24" cy="24" r="2"/>
+              </svg>
+            </div>
+            <div class="specialty-copy">
+              <h3>Ophthalmology</h3>
+              <p>Specialist assessment and treatment for a range of eye conditions.</p>
+              <a href="https://quironhospitals.ae/services/">Explore eye care ↗</a>
+            </div>
+          </article>
+
+          <article class="specialty-item reveal">
+            <div class="specialty-icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48">
+                <path d="M18 5c-5 0-8 4-8 9 0 5 4 8 4 13 0 5-2 9 1 13 2 3 5 2 7-2l2-5 2 5c2 4 5 5 7 2 3-4 1-8 1-13 0-5 4-8 4-13 0-5-3-9-8-9-3 0-4 2-6 2s-3-2-6-2Z"/>
+                <path d="M24 16v11"/>
+                <path d="M18.5 21.5h11"/>
+              </svg>
+            </div>
+            <div class="specialty-copy">
+              <h3>Orthopaedics</h3>
+              <p>Care for joint, bone and musculoskeletal conditions and injuries.</p>
+              <a href="https://quironhospitals.ae/services/">Explore orthopaedics ↗</a>
+            </div>
+          </article>
+
+          <article class="specialty-item reveal">
+            <div class="specialty-icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48">
+                <path d="M12 8c-4 3-5 9-3 14l4 13c1 4 5 5 7 1l4-8 4 8c2 4 6 3 7-1l4-13c2-5 1-11-3-14-4-3-8-1-12 1-4-2-8-4-12-1Z"/>
+                <path d="M18 18h12"/>
+                <path d="M20 23h8"/>
+              </svg>
+            </div>
+            <div class="specialty-copy">
+              <h3>Dental care</h3>
+              <p>Preventive, general, cosmetic and specialist dental treatments.</p>
+              <a href="https://quironhospitals.ae/services/">Explore dental care ↗</a>
+            </div>
+          </article>
+
+          <article class="specialty-item reveal">
+            <div class="specialty-icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48">
+                <circle cx="24" cy="8" r="4"/>
+                <path d="M24 14v12l-8 8"/>
+                <path d="m24 24 9 7"/>
+                <path d="m16 34-5 7"/>
+                <path d="m33 31 4 10"/>
+                <path d="M13 18c4 3 7 4 11 4s8-1 11-4"/>
+              </svg>
+            </div>
+            <div class="specialty-copy">
+              <h3>Physiotherapy</h3>
+              <p>Rehabilitation focused on movement, recovery and physical function.</p>
+              <a href="https://quironhospitals.ae/services/">Explore physiotherapy ↗</a>
+            </div>
+          </article>
+
+          <article class="specialty-item reveal">
+            <div class="specialty-icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48">
+                <path d="M24 5c-8 0-14 6-14 14 0 5 3 9 6 12 2 2 3 4 3 7h10c0-3 1-5 3-7 3-3 6-7 6-12 0-8-6-14-14-14Z"/>
+                <path d="M19 38h10"/>
+                <path d="M20 42h8"/>
+                <path d="M17 18c1-4 4-6 7-6"/>
+              </svg>
+            </div>
+            <div class="specialty-copy">
+              <h3>Dermatology</h3>
+              <p>Medical skin, hair and nail care alongside cosmetic treatments.</p>
+              <a href="https://quironhospitals.ae/services/">Explore dermatology ↗</a>
+            </div>
+          </article>
+
+          <article class="specialty-item reveal">
+            <div class="specialty-icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48">
+                <circle cx="24" cy="14" r="7"/>
+                <path d="M10 41c1-9 6-14 14-14s13 5 14 14"/>
+                <path d="M8 19c-2 2-3 5-3 8"/>
+                <path d="M40 19c2 2 3 5 3 8"/>
+                <path d="M5 27h7"/>
+                <path d="M36 27h7"/>
+              </svg>
+            </div>
+            <div class="specialty-copy">
+              <h3>Family medicine</h3>
+              <p>Primary care and consultations for a range of everyday health needs.</p>
+              <a href="https://quironhospitals.ae/services/">Explore family medicine ↗</a>
+            </div>
+          </article>
+        </div>
+
+        <div style="margin-top:34px;padding-top:25px;border-top:1px solid var(--color-border);" class="reveal">
+          <p style="margin:0;color:var(--color-text-muted);font-size:16px;">
+            Additional services listed by the hospital include cardiology, ENT and radiology.
+            <a class="text-link" href="https://quironhospitals.ae/services/" style="margin-left:8px;">View hospital services <span>↗</span></a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="about">
+      <div class="container about-grid">
+        <div class="about-art reveal" aria-label="Abstract teal visual representing connected healthcare">
+          <div class="about-art-word">care.</div>
+          <div class="about-note">International healthcare experience. A local point of care in Dubai.</div>
+        </div>
+
+        <div class="about-copy reveal">
+          <p class="eyebrow">About Quirónsalud</p>
+          <h2>International experience. Personal attention.</h2>
+          <p>
+            Quirónsalud brings its Spanish healthcare heritage and international
+            experience to its specialist hospital in Dubai.
+          </p>
+          <p>
+            The wider healthcare group has a history spanning more than seven decades.
+            In Dubai, the hospital brings together a range of specialist departments
+            with a focus on personalised treatment and patient care.
+          </p>
+
+          <div class="about-points">
+            <div class="about-point">A range of specialist departments</div>
+            <div class="about-point">Individualised patient care</div>
+            <div class="about-point">International group experience</div>
+            <div class="about-point">A Dubai-based hospital location</div>
+          </div>
+
+          <a class="button button-primary" href="https://quironhospitals.ae/about-us/">Discover Quirónsalud <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-dark" id="care-journey">
+      <div class="container journey-layout">
+        <div class="journey-intro reveal">
+          <p class="eyebrow">Your care journey</p>
+          <h2>A clearer next step starts with a conversation.</h2>
+          <p class="lead">
+            Whether you know which specialist you need or are unsure where to begin,
+            our team can help direct your enquiry.
+          </p>
+          <a class="button button-light" href="https://quironhospitals.ae/contact-us/">Contact the hospital <span aria-hidden="true">↗</span></a>
+        </div>
+
+        <div class="journey-list">
+          <article class="journey-step reveal">
+            <div class="journey-step-number" aria-hidden="true"></div>
+            <div>
+              <h3>Tell us what you need</h3>
+              <p>Contact the hospital and share the reason for your enquiry or the department you would like to reach.</p>
+            </div>
+          </article>
+
+          <article class="journey-step reveal">
+            <div class="journey-step-number" aria-hidden="true"></div>
+            <div>
+              <h3>Find the appropriate department</h3>
+              <p>Our team can help direct your enquiry to the relevant specialist service and explain the next steps.</p>
+            </div>
+          </article>
+
+          <article class="journey-step reveal">
+            <div class="journey-step-number" aria-hidden="true"></div>
+            <div>
+              <h3>Discuss your appointment</h3>
+              <p>Speak with the hospital team to confirm appointment availability and any information you may need before visiting.</p>
+            </div>
+          </article>
+
+          <article class="journey-step reveal">
+            <div class="journey-step-number" aria-hidden="true"></div>
+            <div>
+              <h3>Receive care tailored to your needs</h3>
+              <p>Your clinician will assess your individual circumstances and discuss appropriate care options with you.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="specialists">
+      <div class="container specialist-feature">
+        <div class="specialist-image reveal">
+          <img
+            src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&w=1100&q=85"
+            alt="Illustrative image of a medical professional in a clinical environment"
+            loading="lazy"
+            width="1100"
+            height="900">
+        </div>
+
+        <div class="specialist-copy reveal">
+          <p class="eyebrow">Meet the specialists</p>
+          <h2>People are at the centre of care.</h2>
+          <p>
+            Quirónsalud Dubai publishes a multidisciplinary team across its
+            specialist departments. Explore the hospital's team directory to
+            learn more about its clinicians and areas of practice.
+          </p>
+
+          <div class="doctor-list">
+            <div class="doctor-entry">
+              <strong>Dr. Hisham Barakat</strong>
+              <span>Consultant Ophthalmology</span>
+            </div>
+            <div class="doctor-entry">
+              <strong>Dr. Zaid Al Abbadi</strong>
+              <span>Specialist Ophthalmologist</span>
+            </div>
+            <div class="doctor-entry">
+              <strong>Prof. Dr. Ghassan Elgeadi</strong>
+              <span>Orthopedic Surgeon</span>
+            </div>
+            <div class="doctor-entry">
+              <strong>Dr. Andoni Diaz</strong>
+              <span>Family Medicine</span>
+            </div>
+          </div>
+
+          <a class="button button-primary" href="https://quironhospitals.ae/our-team/">Meet our full team <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-band">
+      <div class="container contact-band-inner">
+        <div class="reveal">
+          <p class="eyebrow">Take the next step</p>
+          <h2>Not sure which department to contact?</h2>
+          <p>Speak with the hospital team about your enquiry and the appropriate next step.</p>
+        </div>
+        <div class="contact-band-actions reveal">
+          <a class="button button-accent" href="tel:+97143422228">Call the hospital</a>
+          <a class="button button-light" href="https://quironhospitals.ae/contact-us/">Contact us online <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="faq">
+      <div class="container faq-layout">
+        <div class="faq-intro reveal">
+          <p class="eyebrow">Helpful information</p>
+          <h2>Questions before your visit?</h2>
+          <p class="lead">
+            Here are a few useful details to help you contact the hospital.
+          </p>
+          <a class="text-link" href="https://quironhospitals.ae/contact-us/">More contact information <span>↗</span></a>
+        </div>
+
+        <div class="faq-list reveal">
+          <div class="faq-item">
+            <button class="faq-question" type="button" aria-expanded="false">
+              <span>Where is Quirónsalud Specialty Hospital located?</span>
+              <span class="faq-plus" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-answer" hidden>
+              The hospital is located at Villa 1187, 304 Wasl Road, Umm Al Sheif District, Dubai, UAE.
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" type="button" aria-expanded="false">
+              <span>Which medical specialties are available?</span>
+              <span class="faq-plus" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-answer" hidden>
+              The hospital lists ophthalmology, orthopaedics, dentistry, physiotherapy,
+              family medicine, dermatology, ENT, cardiology and radiology among its services.
+              Contact the hospital to confirm the department relevant to your needs.
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" type="button" aria-expanded="false">
+              <span>How can I enquire about an appointment?</span>
+              <span class="faq-plus" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-answer" hidden>
+              Call +971 4 342 2228 or use the hospital's contact page to make an appointment enquiry.
+              The hospital team can confirm availability and the next steps.
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" type="button" aria-expanded="false">
+              <span>Can I contact the hospital by email?</span>
+              <span class="faq-plus" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-answer" hidden>
+              Yes. You can email info@quironsalud.ae for general enquiries.
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" type="button" aria-expanded="false">
+              <span>How do I find out which specialist is right for me?</span>
+              <span class="faq-plus" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-answer" hidden>
+              Contact the hospital and describe your concern. The team can help direct
+              your enquiry to the appropriate department. A clinician will assess your
+              individual needs and advise on suitable care.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-copy reveal">
+          <p class="eyebrow">Visit or contact us</p>
+          <h2>Start a conversation about your care.</h2>
+          <p>
+            Reach the Quirónsalud Specialty Hospital team in Dubai by phone,
+            email or through the official contact page.
+          </p>
+
+          <div class="contact-details">
+            <div class="contact-detail">
+              <span class="contact-detail-mark" aria-hidden="true">P</span>
+              <div>
+                <strong>Call the hospital</strong>
+                <a href="tel:+97143422228">+971 4 342 2228</a><br>
+                <a href="tel:+971503093131">+971 50 309 3131</a>
+              </div>
+            </div>
+
+            <div class="contact-detail">
+              <span class="contact-detail-mark" aria-hidden="true">@</span>
+              <div>
+                <strong>Email</strong>
+                <a href="mailto:info@quironsalud.ae">info@quironsalud.ae</a>
+              </div>
+            </div>
+
+            <div class="contact-detail">
+              <span class="contact-detail-mark" aria-hidden="true">L</span>
+              <div>
+                <strong>Hospital address</strong>
+                <span>Villa 1187, 304 Wasl Road,<br>Umm Al Sheif District, Dubai, UAE</span>
+              </div>
+            </div>
+          </div>
+
+          <div style="margin-top:30px;">
+            <a class="button button-primary" href="https://quironhospitals.ae/contact-us/">Open contact page <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+
+        <div class="map-panel reveal">
+          <small>Find us in Dubai</small>
+          <h3>Quirónsalud Specialty Hospital</h3>
+          <p>Villa 1187, 304 Wasl Road, Umm Al Sheif District, Dubai, UAE.</p>
+          <a class="button button-light" href="https://www.google.com/maps/search/?api=1&query=Quironsalud+Specialty+Hospital+Dubai" target="_blank" rel="noopener noreferrer">Get directions <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a class="brand" href="#home" aria-label="Quirónsalud Dubai homepage">
+            <span class="brand-mark" aria-hidden="true">Q</span>
+            <span>
+              <span class="brand-name">quirónsalud</span>
+              <span class="brand-subtitle">Specialty Hospital · Dubai</span>
+            </span>
+          </a>
+          <p>
+            Specialist healthcare in Dubai, with an emphasis on individual
+            needs, clinical expertise and patient care.
+          </p>
+        </div>
+
+        <div class="footer-column">
+          <h3>Explore</h3>
+          <a href="#specialties">Specialties</a>
+          <a href="#about">About Quirónsalud</a>
+          <a href="#care-journey">Your care journey</a>
+          <a href="https://quironhospitals.ae/our-team/">Our specialists</a>
+        </div>
+
+        <div class="footer-column">
+          <h3>Contact</h3>
+          <a href="tel:+97143422228">+971 4 342 2228</a>
+          <a href="mailto:info@quironsalud.ae">info@quironsalud.ae</a>
+          <p>304 Wasl Road, Umm Al Sheif District, Dubai, UAE</p>
+          <a href="https://quironhospitals.ae/contact-us/">Contact page ↗</a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>© <span id="current-year"></span> Quirónsalud Specialty Hospital Dubai.</span>
+        <span class="footer-disclaimer">
+          This is a homepage redesign concept. Medical information is general
+          and does not replace an individual consultation with a qualified clinician.
+        </span>
+      </div>
+    </div>
+  </footer>
+
+  <div class="mobile-cta" aria-label="Quick contact actions">
+    <a class="button button-primary" href="tel:+97143422228">Call hospital</a>
+    <a class="button button-accent" href="https://quironhospitals.ae/contact-us/">Appointment enquiry</a>
+  </div>
+
+  <script>
+    // Mobile navigation
+    const menuToggle = document.querySelector(".menu-toggle");
+    const mainNavigation = document.querySelector(".main-nav");
+
+    function closeMenu() {
+      mainNavigation.classList.remove("is-open");
+      menuToggle.setAttribute("aria-expanded", "false");
+      menuToggle.setAttribute("aria-label", "Open navigation");
+      document.body.classList.remove("menu-open");
+    }
+
+    menuToggle.addEventListener("click", () => {
+      const isOpen = mainNavigation.classList.toggle("is-open");
+      menuToggle.setAttribute("aria-expanded", String(isOpen));
+      menuToggle.setAttribute("aria-label", isOpen ? "Close navigation" : "Open navigation");
+      document.body.classList.toggle("menu-open", isOpen);
+    });
+
+    mainNavigation.querySelectorAll("a").forEach((link) => {
+      link.addEventListener("click", closeMenu);
+    });
+
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "Escape") closeMenu();
+    });
+
+    // Accessible FAQ accordion
+    document.querySelectorAll(".faq-question").forEach((button) => {
+      button.addEventListener("click", () => {
+        const expanded = button.getAttribute("aria-expanded") === "true";
+        const answer = button.nextElementSibling;
+
+        button.setAttribute("aria-expanded", String(!expanded));
+        answer.hidden = expanded;
+      });
+    });
+
+    // Subtle reveal animation with reduced-motion support
+    const revealElements = document.querySelectorAll(".reveal");
+
+    if ("IntersectionObserver" in window &&
+        !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+      const revealObserver = new IntersectionObserver((entries, observer) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("is-visible");
+            observer.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.12 });
+
+      revealElements.forEach((element) => revealObserver.observe(element));
+    } else {
+      revealElements.forEach((element) => element.classList.add("is-visible"));
+    }
+
+    // Dynamic copyright year
+    document.getElementById("current-year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
